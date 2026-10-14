@@ -1,0 +1,34 @@
+﻿check,value,說明
+rows,493744,資料筆數
+vehicles,20,車輛數
+trips,3541,行程數
+time_min,2025-01-01 03:56:02,最早時間
+time_max,2025-11-30 23:53:54,最晚時間
+median_sampling_sec,6.0,兩筆之間秒數的中位數
+pct_gaps_over_120s,0.01,間隔 > 120 秒（訊號中斷）的比例 %
+pct_speedLimit_zero,5.18,無路段速限的資料比例 %
+pct_canStatus_abnormal,0.68,CAN 狀態異常的資料比例 %
+pct_carNum_missing_raw,1.26,缺車號的資料比例 %（補齊前）
+mileage_decreases,266,里程表數值下降次數（異常）
+fuelUsed_decreases,38,累計油耗下降次數（異常）
+duplicate_rows,0,完全重複的資料列數
+events_total,111172,事件總筆數
+events_speeding,26461,speeding 事件筆數
+events_engineOverloading,20520,engineOverloading 事件筆數
+events_decelerate,18568,decelerate 事件筆數
+events_seatbelt,13726,seatbelt 事件筆數
+events_distract,5012,distract 事件筆數
+events_driving,4823,driving 事件筆數
+events_ldws,4029,ldws 事件筆數
+events_engineOn,3517,engineOn 事件筆數
+events_parked,3511,parked 事件筆數
+events_idle,3215,idle 事件筆數
+events_accelerate,3001,accelerate 事件筆數
+events_phone,2478,phone 事件筆數
+events_lensWardOff,1480,lensWardOff 事件筆數
+events_fatigue,686,fatigue 事件筆數
+events_dtc,103,dtc 事件筆數
+events_pcs,42,pcs 事件筆數
+speeding_trigger_over_kmh_min,1.0,超速觸發時超出速限的最小值（km/h）
+speeding_trigger_over_kmh_median,7.0,超速觸發時超出速限的中位數（km/h）
+decel_speedDiff_min,7.0,急減速 speedDifference 最小值（km/h）
